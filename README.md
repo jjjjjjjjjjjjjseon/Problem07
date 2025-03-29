@@ -27,8 +27,8 @@ public class Problem07 {
         } else {
             System.out.println("맞았습니다.");
          break;
+        }
     }
-}
         System.out.print("게임을 종료하시겠습니다?(y/n) >>");
         answer = scanner.next();
     if (answer.equalsIgnoreCase("n"));
